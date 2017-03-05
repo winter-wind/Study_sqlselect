@@ -17,7 +17,7 @@ public class StudentDao {
 		PreparedStatement statement = null;
 		try{
 			Class.forName("com.mysql.jdbc.Driver");
-			String url = "jdbc:mysql://localhost:3306/Websql";
+			String url = "jdbc:mysql://localhost:3306/websql";
 			
 			String user1= "root";
 			String password1 = "Cddd";
